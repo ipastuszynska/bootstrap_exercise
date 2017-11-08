@@ -2,16 +2,19 @@
 <html>
 <head>
   <title>Sam's Sarnies</title>
-
+  <link href = 'bootstrap/css/bootstrap.css' rel = 'stylesheet'>
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <div class = "container">
   <div class='jumbotron'>
-
-    <h1>Healthy sandwiches for your team</h1>
-
-    <img src='images/sandwich.png'>
-
+    <div class = 'col-sm-8'>
+        <h1>Healthy sandwiches for your team</h1>
+    </div>
+    <div class = 'col-sm-4'>
+      <img src='images/sandwich.png'>
+    </div>
     <form role='form'>
       <label for="email">Find out more</label>
       <input type="text" name="email" >
@@ -22,16 +25,19 @@
   <div id="buzz">
     <h2><small>The Buzz</small><br />What are people saying?</h2>
     <div>
+        <div class = 'col-sm-4'>
       <img src='images/person.jpg'>
       <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
       <small>Mr Smith, Professional sandwich taster</small>
     </div>
     <div>
+      <div class = 'col-sm-4'>
       <img src='images/person.jpg'>
       <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
       <small>Miss McAdam, CEO Workplace Analytics</small>
     </div>
     <div>
+      <div class = 'col-sm-4'>
       <img src='images/person.jpg'>
       <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
     </div> 
@@ -52,7 +58,7 @@
       <button class='btn-pinterest'>Pinterest</button>
     </div>
   </div>
-
+</div>
 
 </body>
 
